@@ -4,7 +4,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-  validates :phone, :avatar, :name, presence: true
+         validates :phone, :name, :avatar, presence: true
 
   has_one_attached :avatar
 end
