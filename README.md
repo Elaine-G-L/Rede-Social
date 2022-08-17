@@ -45,3 +45,10 @@ rails s
 1. Opção de "seguir" e "deixar de seguir" um usuário.
 2. Opção de comentar um post de outro usuário.
 
+## Por dentro da aplicação:
+
+Rotas   | URL
+----- | ------
+Login dos usuários | http://localhost:3000/users/sign_in
+Login dos administradores | http://localhost:3000/admins/sign_in
+
