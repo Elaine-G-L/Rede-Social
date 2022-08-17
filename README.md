@@ -1,24 +1,37 @@
-# README
+# Projeto de uma Rede Social utilizando como linguagem o Ruby no framework Rails e o PostgreSQL para persistência no banco de dados.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Objetivo: 
+Criação de uma Rede Social onde usuários possam criar posts, seguir outros usuários, deixar de seguir e comentar em publicações de outros usuários. 
 
-Things you may want to cover:
+## Na criação desse projeto foram utilizados:
 
-* Ruby version
+* Versão do Ruby: 3.1.2
 
-* System dependencies
+* Versão do Rails: 7.0.3
 
-* Configuration
+* Para a ciração do Banco de Dados: PostgreSQL
 
-* Database creation
+* Lista de gems adicionadas para o projeto: 
 
-* Database initialization
 
-* How to run the test suite
+Gem   | Funcionalidade
+----- | ------
+Devise | Criação do painel de autenticação para usuários e administradores
+Rspec | Criação de testes na aplicação
+PG | Interface de comunicação com o banco de dados
+factory_bot_rails |  Biblioteca para configurar objetos de dados de teste em Ruby.
 
-* Services (job queues, cache servers, search engines, etc.)
+* Intruções para execução do projeto em sua máquina local:
 
-* Deployment instructions
+1. Dentro da pasta do projeto, através do terminal, execute o comando: 
+```
+bundle install
+```
 
-* ...
+2. Ainda na pasta do projeto, dentro do temrinal, para montar o servido local utilize o comando:
+```
+rails s
+```
+
+3. Após o servidor montato, utilize o link <http://127.0.0.1:3000> para acessar a aplicação.
+
