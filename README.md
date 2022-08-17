@@ -35,3 +35,13 @@ rails s
 
 3. Após o servidor montato, utilize o link <http://127.0.0.1:3000> para acessar a aplicação.
 
+
+## Requisitos desenvolvidos até o momento:
+1. Criação do painel de administradores e usuários (front-end utilizando bootstrap)
+2. CRUD de Administradores
+3. Criação de usuários e de posts através do perfil de um usuário
+
+## Requisitos que ainda serão implementados: 
+1. Opção de "seguir" e "deixar de seguir" um usuário.
+2. Opção de comentar um post de outro usuário.
+
